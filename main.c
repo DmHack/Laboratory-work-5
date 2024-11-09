@@ -12,6 +12,8 @@
 #include "func/copyMass//copyMass.h"
 #include "func/vuvod/vuvod.h"
 #include "func/sort/vibor/vibor.h"
+#include "func/sort/pyzir/pyzir.h"
+#include "func/sort/counting/counting.h"
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
@@ -79,6 +81,7 @@ int main() {
                     struct timeval start, end;
                     switch (vubor) {
                         case 1: {
+                            printf("Сортировка вставками\n");
                             printf("Выводить промежуточные изменения массива после итераций сортировки?(0 - нет, 1 - да):");
                             scanf("%d", &vuborProm);
                             if (vuborProm == 0) {
@@ -114,6 +117,7 @@ int main() {
                             }
                         }; break;
                         case 2: {
+                            printf("Сортировка выбором\n");
                             printf("Выводить промежуточные изменения массива после итераций сортировки?(0 - нет, 1 - да):");
                             scanf("%d", &vuborProm);
                             if (vuborProm == 0) {
@@ -148,13 +152,14 @@ int main() {
                                 cont++;
                             }
 
-                        }
+                        }; break;
                         case 3: {
+                            printf("Сортировка пузырьком без модификаций\n");
                             printf("Выводить промежуточные изменения массива после итераций сортировки?(0 - нет, 1 - да):");
                             scanf("%d", &vuborProm);
                             if (vuborProm == 0) {
                                 gettimeofday(&start, NULL);
-                                viborMassBez(copyArray, size, &iterations);
+                                pyzir(copyArray, size, &iterations, vuborProm);
                                 gettimeofday(&end, NULL);
 
                                 seconds_start = start.tv_sec;
@@ -169,7 +174,7 @@ int main() {
                                 cont++;
                             } else if (vuborProm == 1) {
                                 gettimeofday(&start, NULL);
-                                viborMass(copyArray, size, &iterations);
+                                pyzir(copyArray, size, &iterations, vuborProm);
                                 gettimeofday(&end, NULL);
 
                                 seconds_start = start.tv_sec;
@@ -183,7 +188,79 @@ int main() {
                                 printf("Количество итераций: %d\n", iterations);
                                 cont++;
                             }
-                        }
+                        }; break;
+                        case 4: {
+                            printf("Сортировка пузырьком с модификациями\n");
+                            printf("Выводить промежуточные изменения массива после итераций сортировки?(0 - нет, 1 - да):");
+                            scanf("%d", &vuborProm);
+                            if (vuborProm == 0) {
+                                gettimeofday(&start, NULL);
+                                pyzirMod(copyArray, size, &iterations, vuborProm);
+                                gettimeofday(&end, NULL);
+
+                                seconds_start = start.tv_sec;
+                                microseconds_start = start.tv_usec;
+                                seconds_end = end.tv_sec;
+                                microseconds_end = end.tv_usec;
+                                double time_spent = (seconds_end - seconds_start) + (microseconds_end - microseconds_start) / 1000000.0;
+
+                                vuvodMass(copyArray, size);
+                                printf("\nВремя сортировки: %.6f секунд\n", time_spent);
+                                printf("Количество итераций: %d\n", iterations);
+                                cont++;
+                            } else if (vuborProm == 1) {
+                                gettimeofday(&start, NULL);
+                                pyzirMod(copyArray, size, &iterations, vuborProm);
+                                gettimeofday(&end, NULL);
+
+                                seconds_start = start.tv_sec;
+                                microseconds_start = start.tv_usec;
+                                seconds_end = end.tv_sec;
+                                microseconds_end = end.tv_usec;
+                                double time_spent = (seconds_end - seconds_start) + (microseconds_end - microseconds_start) / 1000000.0;
+
+                                vuvodMass(copyArray, size);
+                                printf("\nВремя сортировки: %.6f секунд\n", time_spent);
+                                printf("Количество итераций: %d\n", iterations);
+                                cont++;
+                            }
+                        }; break;
+                        case 5: {
+                            printf("Сортировка подсчетом для целых чисел\n");
+                            printf("Выводить промежуточные изменения массива после итераций сортировки?(0 - нет, 1 - да):");
+                            scanf("%d", &vuborProm);
+                            if (vuborProm == 0) {
+                                gettimeofday(&start, NULL);
+                                counting(copyArray, size, &iterations, vuborProm);
+                                gettimeofday(&end, NULL);
+
+                                seconds_start = start.tv_sec;
+                                microseconds_start = start.tv_usec;
+                                seconds_end = end.tv_sec;
+                                microseconds_end = end.tv_usec;
+                                double time_spent = (seconds_end - seconds_start) + (microseconds_end - microseconds_start) / 1000000.0;
+
+                                vuvodMass(copyArray, size);
+                                printf("\nВремя сортировки: %.6f секунд\n", time_spent);
+                                printf("Количество итераций: %d\n", iterations);
+                                cont++;
+                            } else if (vuborProm == 1) {
+                                gettimeofday(&start, NULL);
+                                pyzirMod(copyArray, size, &iterations, vuborProm);
+                                gettimeofday(&end, NULL);
+
+                                seconds_start = start.tv_sec;
+                                microseconds_start = start.tv_usec;
+                                seconds_end = end.tv_sec;
+                                microseconds_end = end.tv_usec;
+                                double time_spent = (seconds_end - seconds_start) + (microseconds_end - microseconds_start) / 1000000.0;
+
+                                vuvodMass(copyArray, size);
+                                printf("\nВремя сортировки: %.6f секунд\n", time_spent);
+                                printf("Количество итераций: %d\n", iterations);
+                                cont++;
+                            }
+                        }; break;
                 }
             }; break;
 
@@ -194,7 +271,6 @@ int main() {
                 if (prodol) {
                     printf("Использовать тот же массив? (0 - нет, 1 - да)");
                     scanf("%d", &prodol);
-                    printf("%d", prodol);
                     if (prodol) {
                         cont = 2;
                     } else {

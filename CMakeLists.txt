@@ -10,4 +10,6 @@ add_executable(Laboratory_work_5 main.c func/vvod/vvod.c
         func/vuvod/vuvod.c
         func/sort/vibor/vibor.c
         func/sort/pyzir/pyzir.c
+        func/sort/counting/counting.c
+        func/findMax/findMax.c
 )

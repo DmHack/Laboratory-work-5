@@ -1,3 +1,3 @@
-C:/Users/Admin/laboratoryWork/Laboratory-work-5/cmake-build-debug/CMakeFiles/Laboratory_work_5.dir
-C:/Users/Admin/laboratoryWork/Laboratory-work-5/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/laboratoryWork/Laboratory-work-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/cmake-build-debug/CMakeFiles/Laboratory_work_5.dir
+C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
