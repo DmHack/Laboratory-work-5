@@ -1,0 +1,14 @@
+# ninja log v6
+12	83	7528153913848713	CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj	55802953f4ede5ba
+911	1014	7528093719565407	libLaboratory_work_5.a	a703fd145061e1e
+2	90	7528093710469411	CMakeFiles/Laboratory_work_5.dir/library.c.obj	23d2ee9ff9fe2c76
+7	909	7528269693483551	CMakeFiles/Laboratory_work_5.dir/main.c.obj	49c935ccd738ae28
+4	224	7528280626217949	build.ninja	a6abdd1ae0cb90f1
+83	177	7528270366915580	Laboratory_work_5.exe	768bb4e973e30352
+16	99	7528153913896954	CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj	f697d0f7b1ae94c8
+6	79	7528156309935190	CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj	986f3a3c3549976c
+2	11	7528153912666069	clean	f0819b41ab4c6e17
+8	82	7528242146634447	CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj	91b0285312d59b4f
+6	72	7528206789410403	CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj	2ba106eaf6da2e16
+12	81	7528220834903029	CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj	aa880edc62ff1097
+7	83	7528270366155409	CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj	9f9505be7bbd6994

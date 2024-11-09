@@ -1,0 +1,6 @@
+#ifndef LABORATORY_WORK_5_LIBRARY_H
+#define LABORATORY_WORK_5_LIBRARY_H
+
+void hello(void);
+
+#endif //LABORATORY_WORK_5_LIBRARY_H
