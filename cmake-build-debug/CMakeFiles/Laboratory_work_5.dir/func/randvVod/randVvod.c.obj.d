@@ -1,6 +1,6 @@
 CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj: \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\randvVod\randVvod.c \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\randvVod\randVvod.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\randvVod\randVvod.c \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\randvVod\randVvod.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \

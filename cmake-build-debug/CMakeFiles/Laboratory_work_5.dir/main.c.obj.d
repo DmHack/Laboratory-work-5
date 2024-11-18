@@ -1,5 +1,5 @@
 CMakeFiles/Laboratory_work_5.dir/main.c.obj: \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\main.c \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\main.c \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \
@@ -275,13 +275,14 @@ CMakeFiles/Laboratory_work_5.dir/main.c.obj: \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/sys/timeb.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/pthread_time.h \
- C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/sys/time.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/vvod/vvod.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/randvVod/randVvod.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/goBack/goBack.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/sort/vstavka/vstavka.h \
- C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/copyMass/copyMass.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/vuvod/vuvod.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/sort/vibor/vibor.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/sort/pyzir/pyzir.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func/sort/counting/counting.h
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/vvod/vvod.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/randvVod/randVvod.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/vstavka/vstavka.h \
+ C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/copyMass/copyMass.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/vuvod/vuvod.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/vibor/vibor.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/pyzir/pyzir.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/counting/counting.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/sliyanie/sliyanie.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/quickSort/quickSort.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/isSorted/isSorting.h

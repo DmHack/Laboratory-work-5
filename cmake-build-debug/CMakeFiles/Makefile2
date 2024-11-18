@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5
+CMAKE_SOURCE_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/Laboratory_work_5.dir/clean
 CMakeFiles/Laboratory_work_5.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target Laboratory_work_5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15 "Built target Laboratory_work_5"
 .PHONY : CMakeFiles/Laboratory_work_5.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Laboratory_work_5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Laboratory_work_5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/Laboratory_work_5.dir/rule
 
 # Convenience name for target.

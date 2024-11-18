@@ -28,7 +28,8 @@ void pyzir(double arr[], int size, int *iterations, int vv) {
 
 
 void pyzirMod(double arr[], int size, int *iterations, int vv) {
-    int i, j, temp;
+    int i, j;
+    double temp;
     *iterations = 0;
     int swapped;
 

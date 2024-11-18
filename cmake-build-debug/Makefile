@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5
+CMAKE_SOURCE_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -152,53 +152,77 @@ func/copyMass/copyMass.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.s
 .PHONY : func/copyMass/copyMass.c.s
 
-func/findMax/findMax.obj: func/findMax/findMax.c.obj
-.PHONY : func/findMax/findMax.obj
+func/isSorted/isSorting.obj: func/isSorted/isSorting.c.obj
+.PHONY : func/isSorted/isSorting.obj
 
 # target to build an object file
-func/findMax/findMax.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj
-.PHONY : func/findMax/findMax.c.obj
+func/isSorted/isSorting.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj
+.PHONY : func/isSorted/isSorting.c.obj
 
-func/findMax/findMax.i: func/findMax/findMax.c.i
-.PHONY : func/findMax/findMax.i
+func/isSorted/isSorting.i: func/isSorted/isSorting.c.i
+.PHONY : func/isSorted/isSorting.i
 
 # target to preprocess a source file
-func/findMax/findMax.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.i
-.PHONY : func/findMax/findMax.c.i
+func/isSorted/isSorting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.i
+.PHONY : func/isSorted/isSorting.c.i
 
-func/findMax/findMax.s: func/findMax/findMax.c.s
-.PHONY : func/findMax/findMax.s
+func/isSorted/isSorting.s: func/isSorted/isSorting.c.s
+.PHONY : func/isSorted/isSorting.s
 
 # target to generate assembly for a file
-func/findMax/findMax.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.s
-.PHONY : func/findMax/findMax.c.s
+func/isSorted/isSorting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.s
+.PHONY : func/isSorted/isSorting.c.s
 
-func/goBack/goBack.obj: func/goBack/goBack.c.obj
-.PHONY : func/goBack/goBack.obj
+func/poisk/binary/binary.obj: func/poisk/binary/binary.c.obj
+.PHONY : func/poisk/binary/binary.obj
 
 # target to build an object file
-func/goBack/goBack.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj
-.PHONY : func/goBack/goBack.c.obj
+func/poisk/binary/binary.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj
+.PHONY : func/poisk/binary/binary.c.obj
 
-func/goBack/goBack.i: func/goBack/goBack.c.i
-.PHONY : func/goBack/goBack.i
+func/poisk/binary/binary.i: func/poisk/binary/binary.c.i
+.PHONY : func/poisk/binary/binary.i
 
 # target to preprocess a source file
-func/goBack/goBack.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.i
-.PHONY : func/goBack/goBack.c.i
+func/poisk/binary/binary.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.i
+.PHONY : func/poisk/binary/binary.c.i
 
-func/goBack/goBack.s: func/goBack/goBack.c.s
-.PHONY : func/goBack/goBack.s
+func/poisk/binary/binary.s: func/poisk/binary/binary.c.s
+.PHONY : func/poisk/binary/binary.s
 
 # target to generate assembly for a file
-func/goBack/goBack.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.s
-.PHONY : func/goBack/goBack.c.s
+func/poisk/binary/binary.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.s
+.PHONY : func/poisk/binary/binary.c.s
+
+func/poisk/lineal/lineal.obj: func/poisk/lineal/lineal.c.obj
+.PHONY : func/poisk/lineal/lineal.obj
+
+# target to build an object file
+func/poisk/lineal/lineal.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj
+.PHONY : func/poisk/lineal/lineal.c.obj
+
+func/poisk/lineal/lineal.i: func/poisk/lineal/lineal.c.i
+.PHONY : func/poisk/lineal/lineal.i
+
+# target to preprocess a source file
+func/poisk/lineal/lineal.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.i
+.PHONY : func/poisk/lineal/lineal.c.i
+
+func/poisk/lineal/lineal.s: func/poisk/lineal/lineal.c.s
+.PHONY : func/poisk/lineal/lineal.s
+
+# target to generate assembly for a file
+func/poisk/lineal/lineal.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.s
+.PHONY : func/poisk/lineal/lineal.c.s
 
 func/randvVod/randVvod.obj: func/randvVod/randVvod.c.obj
 .PHONY : func/randvVod/randVvod.obj
@@ -271,6 +295,54 @@ func/sort/pyzir/pyzir.s: func/sort/pyzir/pyzir.c.s
 func/sort/pyzir/pyzir.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.s
 .PHONY : func/sort/pyzir/pyzir.c.s
+
+func/sort/quickSort/quickSort.obj: func/sort/quickSort/quickSort.c.obj
+.PHONY : func/sort/quickSort/quickSort.obj
+
+# target to build an object file
+func/sort/quickSort/quickSort.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj
+.PHONY : func/sort/quickSort/quickSort.c.obj
+
+func/sort/quickSort/quickSort.i: func/sort/quickSort/quickSort.c.i
+.PHONY : func/sort/quickSort/quickSort.i
+
+# target to preprocess a source file
+func/sort/quickSort/quickSort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.i
+.PHONY : func/sort/quickSort/quickSort.c.i
+
+func/sort/quickSort/quickSort.s: func/sort/quickSort/quickSort.c.s
+.PHONY : func/sort/quickSort/quickSort.s
+
+# target to generate assembly for a file
+func/sort/quickSort/quickSort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.s
+.PHONY : func/sort/quickSort/quickSort.c.s
+
+func/sort/sliyanie/sliyanie.obj: func/sort/sliyanie/sliyanie.c.obj
+.PHONY : func/sort/sliyanie/sliyanie.obj
+
+# target to build an object file
+func/sort/sliyanie/sliyanie.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj
+.PHONY : func/sort/sliyanie/sliyanie.c.obj
+
+func/sort/sliyanie/sliyanie.i: func/sort/sliyanie/sliyanie.c.i
+.PHONY : func/sort/sliyanie/sliyanie.i
+
+# target to preprocess a source file
+func/sort/sliyanie/sliyanie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.i
+.PHONY : func/sort/sliyanie/sliyanie.c.i
+
+func/sort/sliyanie/sliyanie.s: func/sort/sliyanie/sliyanie.c.s
+.PHONY : func/sort/sliyanie/sliyanie.s
+
+# target to generate assembly for a file
+func/sort/sliyanie/sliyanie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Laboratory_work_5.dir\build.make CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.s
+.PHONY : func/sort/sliyanie/sliyanie.c.s
 
 func/sort/vibor/vibor.obj: func/sort/vibor/vibor.c.obj
 .PHONY : func/sort/vibor/vibor.obj
@@ -404,12 +476,15 @@ help:
 	@echo ... func/copyMass/copyMass.obj
 	@echo ... func/copyMass/copyMass.i
 	@echo ... func/copyMass/copyMass.s
-	@echo ... func/findMax/findMax.obj
-	@echo ... func/findMax/findMax.i
-	@echo ... func/findMax/findMax.s
-	@echo ... func/goBack/goBack.obj
-	@echo ... func/goBack/goBack.i
-	@echo ... func/goBack/goBack.s
+	@echo ... func/isSorted/isSorting.obj
+	@echo ... func/isSorted/isSorting.i
+	@echo ... func/isSorted/isSorting.s
+	@echo ... func/poisk/binary/binary.obj
+	@echo ... func/poisk/binary/binary.i
+	@echo ... func/poisk/binary/binary.s
+	@echo ... func/poisk/lineal/lineal.obj
+	@echo ... func/poisk/lineal/lineal.i
+	@echo ... func/poisk/lineal/lineal.s
 	@echo ... func/randvVod/randVvod.obj
 	@echo ... func/randvVod/randVvod.i
 	@echo ... func/randvVod/randVvod.s
@@ -419,6 +494,12 @@ help:
 	@echo ... func/sort/pyzir/pyzir.obj
 	@echo ... func/sort/pyzir/pyzir.i
 	@echo ... func/sort/pyzir/pyzir.s
+	@echo ... func/sort/quickSort/quickSort.obj
+	@echo ... func/sort/quickSort/quickSort.i
+	@echo ... func/sort/quickSort/quickSort.s
+	@echo ... func/sort/sliyanie/sliyanie.obj
+	@echo ... func/sort/sliyanie/sliyanie.i
+	@echo ... func/sort/sliyanie/sliyanie.s
 	@echo ... func/sort/vibor/vibor.obj
 	@echo ... func/sort/vibor/vibor.i
 	@echo ... func/sort/vibor/vibor.s

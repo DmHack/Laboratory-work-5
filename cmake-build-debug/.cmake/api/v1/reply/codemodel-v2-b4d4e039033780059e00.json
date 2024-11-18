@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Laboratory_work_5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Laboratory_work_5-Debug-93c3308608b07b64bc85.json",
+					"jsonFile" : "target-Laboratory_work_5-Debug-9eb53961c2a03a101799.json",
 					"name" : "Laboratory_work_5",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/cmake-build-debug",
-		"source" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5"
+		"build" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/cmake-build-debug",
+		"source" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5"
 	},
 	"version" : 
 	{

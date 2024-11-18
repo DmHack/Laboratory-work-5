@@ -1,5 +1,5 @@
 CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj: \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\goBack\goBack.c \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\goBack\goBack.c \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/stdio.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.0.1/bin/mingw/x86_64-w64-mingw32/include/corecrt.h \

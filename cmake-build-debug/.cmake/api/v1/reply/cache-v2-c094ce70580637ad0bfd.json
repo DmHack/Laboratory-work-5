@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/cmake-build-debug"
+			"value" : "c:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -431,7 +431,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -503,7 +503,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5"
+			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/cmake-build-debug"
+			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/cmake-build-debug"
 		},
 		{
 			"name" : "Laboratory_work_5_IS_TOP_LEVEL",
@@ -1163,7 +1163,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5"
+			"value" : "C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

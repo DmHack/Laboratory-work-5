@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.0.1\bin\cmake\win\x64\bin\cmake.ex
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5
+CMAKE_SOURCE_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Laboratory_work_5.dir/depend.make
@@ -69,172 +69,217 @@ include CMakeFiles/Laboratory_work_5.dir/progress.make
 include CMakeFiles/Laboratory_work_5.dir/flags.make
 
 CMakeFiles/Laboratory_work_5.dir/main.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/main.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/main.c
+CMakeFiles/Laboratory_work_5.dir/main.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/main.c
 CMakeFiles/Laboratory_work_5.dir/main.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Laboratory_work_5.dir/main.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/main.c.obj -MF CMakeFiles\Laboratory_work_5.dir\main.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\main.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Laboratory_work_5.dir/main.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/main.c.obj -MF CMakeFiles\Laboratory_work_5.dir\main.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\main.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\main.c
 
 CMakeFiles/Laboratory_work_5.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/main.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\main.c > CMakeFiles\Laboratory_work_5.dir\main.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\main.c > CMakeFiles\Laboratory_work_5.dir\main.c.i
 
 CMakeFiles/Laboratory_work_5.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/main.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\main.c -o CMakeFiles\Laboratory_work_5.dir\main.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\main.c -o CMakeFiles\Laboratory_work_5.dir\main.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/vvod/vvod.c
+CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/vvod/vvod.c
 CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\vvod\vvod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\vvod\vvod.c
 
 CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\vvod\vvod.c > CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\vvod\vvod.c > CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\vvod\vvod.c -o CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\vvod\vvod.c -o CMakeFiles\Laboratory_work_5.dir\func\vvod\vvod.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/randvVod/randVvod.c
+CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/randvVod/randVvod.c
 CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\randvVod\randVvod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\randvVod\randVvod.c
 
 CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\randvVod\randVvod.c > CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\randvVod\randVvod.c > CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\randvVod\randVvod.c -o CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.s
-
-CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/goBack/goBack.c
-CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\goBack\goBack.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\goBack\goBack.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\goBack\goBack.c
-
-CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\goBack\goBack.c > CMakeFiles\Laboratory_work_5.dir\func\goBack\goBack.c.i
-
-CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\goBack\goBack.c -o CMakeFiles\Laboratory_work_5.dir\func\goBack\goBack.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\randvVod\randVvod.c -o CMakeFiles\Laboratory_work_5.dir\func\randvVod\randVvod.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/sort/vstavka/vstavka.c
+CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/sort/vstavka/vstavka.c
 CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\vstavka\vstavka.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\vstavka\vstavka.c
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\vstavka\vstavka.c > CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\vstavka\vstavka.c > CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\vstavka\vstavka.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\vstavka\vstavka.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\vstavka\vstavka.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/copyMass/copyMass.c
+CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/copyMass/copyMass.c
 CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\copyMass\copyMass.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\copyMass\copyMass.c
 
 CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\copyMass\copyMass.c > CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\copyMass\copyMass.c > CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\copyMass\copyMass.c -o CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\copyMass\copyMass.c -o CMakeFiles\Laboratory_work_5.dir\func\copyMass\copyMass.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/vuvod/vuvod.c
+CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/vuvod/vuvod.c
 CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\vuvod\vuvod.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\vuvod\vuvod.c
 
 CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\vuvod\vuvod.c > CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\vuvod\vuvod.c > CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\vuvod\vuvod.c -o CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\vuvod\vuvod.c -o CMakeFiles\Laboratory_work_5.dir\func\vuvod\vuvod.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/sort/vibor/vibor.c
+CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/sort/vibor/vibor.c
 CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\vibor\vibor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\vibor\vibor.c
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\vibor\vibor.c > CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\vibor\vibor.c > CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\vibor\vibor.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\vibor\vibor.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\vibor\vibor.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/sort/pyzir/pyzir.c
+CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/sort/pyzir/pyzir.c
 CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\pyzir\pyzir.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\pyzir\pyzir.c
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\pyzir\pyzir.c > CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\pyzir\pyzir.c > CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\pyzir\pyzir.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\pyzir\pyzir.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\pyzir\pyzir.c.s
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/sort/counting/counting.c
+CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/sort/counting/counting.c
 CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\counting\counting.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\counting\counting.c
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\counting\counting.c > CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\counting\counting.c > CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.i
 
 CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\sort\counting\counting.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\counting\counting.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\counting\counting.c.s
 
-CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
-CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/func/findMax/findMax.c
-CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\findMax\findMax.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\findMax\findMax.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\findMax\findMax.c
+CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
+CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/sort/sliyanie/sliyanie.c
+CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\sliyanie\sliyanie.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\sliyanie\sliyanie.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\sliyanie\sliyanie.c
 
-CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\findMax\findMax.c > CMakeFiles\Laboratory_work_5.dir\func\findMax\findMax.c.i
+CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\sliyanie\sliyanie.c > CMakeFiles\Laboratory_work_5.dir\func\sort\sliyanie\sliyanie.c.i
 
-CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\func\findMax\findMax.c -o CMakeFiles\Laboratory_work_5.dir\func\findMax\findMax.c.s
+CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\sliyanie\sliyanie.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\sliyanie\sliyanie.c.s
+
+CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
+CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/sort/quickSort/quickSort.c
+CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\sort\quickSort\quickSort.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\sort\quickSort\quickSort.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\quickSort\quickSort.c
+
+CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\quickSort\quickSort.c > CMakeFiles\Laboratory_work_5.dir\func\sort\quickSort\quickSort.c.i
+
+CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\sort\quickSort\quickSort.c -o CMakeFiles\Laboratory_work_5.dir\func\sort\quickSort\quickSort.c.s
+
+CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
+CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/poisk/binary/binary.c
+CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\poisk\binary\binary.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\poisk\binary\binary.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\poisk\binary\binary.c
+
+CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\poisk\binary\binary.c > CMakeFiles\Laboratory_work_5.dir\func\poisk\binary\binary.c.i
+
+CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\poisk\binary\binary.c -o CMakeFiles\Laboratory_work_5.dir\func\poisk\binary\binary.c.s
+
+CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
+CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/poisk/lineal/lineal.c
+CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\poisk\lineal\lineal.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\poisk\lineal\lineal.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\poisk\lineal\lineal.c
+
+CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\poisk\lineal\lineal.c > CMakeFiles\Laboratory_work_5.dir\func\poisk\lineal\lineal.c.i
+
+CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\poisk\lineal\lineal.c -o CMakeFiles\Laboratory_work_5.dir\func\poisk\lineal\lineal.c.s
+
+CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj: CMakeFiles/Laboratory_work_5.dir/flags.make
+CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj: C:/Users/Admin/laboratoryWorkProject/Laboratory-work-5/Laboratory-work-5/func/isSorted/isSorting.c
+CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj: CMakeFiles/Laboratory_work_5.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj -MF CMakeFiles\Laboratory_work_5.dir\func\isSorted\isSorting.c.obj.d -o CMakeFiles\Laboratory_work_5.dir\func\isSorted\isSorting.c.obj -c C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\isSorted\isSorting.c
+
+CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\isSorted\isSorting.c > CMakeFiles\Laboratory_work_5.dir\func\isSorted\isSorting.c.i
+
+CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.1\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func\isSorted\isSorting.c -o CMakeFiles\Laboratory_work_5.dir\func\isSorted\isSorting.c.s
 
 # Object files for target Laboratory_work_5
 Laboratory_work_5_OBJECTS = \
 "CMakeFiles/Laboratory_work_5.dir/main.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj" \
-"CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj" \
 "CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj" \
-"CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj"
+"CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj" \
+"CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj" \
+"CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj" \
+"CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj" \
+"CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj"
 
 # External object files for target Laboratory_work_5
 Laboratory_work_5_EXTERNAL_OBJECTS =
@@ -242,19 +287,22 @@ Laboratory_work_5_EXTERNAL_OBJECTS =
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/main.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/vvod/vvod.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/randvVod/randVvod.c.obj
-Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/goBack/goBack.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/sort/vstavka/vstavka.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/copyMass/copyMass.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/vuvod/vuvod.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/sort/vibor/vibor.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/sort/pyzir/pyzir.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/sort/counting/counting.c.obj
-Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/findMax/findMax.c.obj
+Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/sort/sliyanie/sliyanie.c.obj
+Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/sort/quickSort/quickSort.c.obj
+Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/poisk/binary/binary.c.obj
+Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/poisk/lineal/lineal.c.obj
+Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/func/isSorted/isSorting.c.obj
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/build.make
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/linkLibs.rsp
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/objects1.rsp
 Laboratory_work_5.exe: CMakeFiles/Laboratory_work_5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable Laboratory_work_5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking C executable Laboratory_work_5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Laboratory_work_5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -266,6 +314,6 @@ CMakeFiles/Laboratory_work_5.dir/clean:
 .PHONY : CMakeFiles/Laboratory_work_5.dir/clean
 
 CMakeFiles/Laboratory_work_5.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5 C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5 C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\cmake-build-debug\CMakeFiles\Laboratory_work_5.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5 C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5 C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\cmake-build-debug\CMakeFiles\Laboratory_work_5.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Laboratory_work_5.dir/depend
 
