@@ -285,4 +285,6 @@ CMakeFiles/Laboratory_work_5.dir/main.c.obj: \
  C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/counting/counting.h \
  C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/sliyanie/sliyanie.h \
  C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/sort/quickSort/quickSort.h \
- C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/isSorted/isSorting.h
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/isSorted/isSorting.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/poisk/lineal/lineal.h \
+ C:\Users\Admin\laboratoryWorkProject\Laboratory-work-5\Laboratory-work-5\func/poisk/binary/binary.h

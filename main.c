@@ -15,13 +15,15 @@
 #include "func/sort/sliyanie/sliyanie.h"
 #include "func/sort/quickSort/quickSort.h"
 #include "func/isSorted/isSorting.h"
+#include "func/poisk/lineal/lineal.h"
+#include "func/poisk/binary/binary.h"
 
 int main() {
     SetConsoleOutputCP(CP_UTF8);
     int size, vubor;
 
     bool whProd = true;
-    double *array;
+    double* array;
     double* copyArray;
 
     int cont = 0;
@@ -30,14 +32,19 @@ int main() {
         printf("1. Ввести количество элементов массива\n");
         printf("2. Заполнить массив\n");
         printf("3. Cпособ сортировки\n");
-        printf("4. Выход\n");
-        printf("Выберите опцию: ");
+        printf("4. Другие алгоритмы\n");
+        printf("5. Выход\n");
+        printf("Выберите опцию:");
         scanf("%d", &cont);
         vubor = 0;
         switch (cont) {
             case 1: {
                 printf("Введите количество элементов массива:");
                 scanf("%d", &size);
+                if(size < 1) {
+                    printf("Массив должен быть больше 1 элента!");
+                    break;
+                }
                 array = (double *) malloc(size * sizeof(double));
                 copyArray = (double*)malloc(size * sizeof(double));
                 cont++;
@@ -49,12 +56,14 @@ int main() {
                     if (vubor == 0) {
                         vvodMass(array, size);
                         cont++;
+                        break;
                     } else if (vubor == 1) {
                         printf("Нужны ли границы для генерации случайных чисел? (0 - нет, 1 - да):");
                         scanf("%d", &vubor);
                         if (vubor == 0) {
                             vvodMassRand(array, size);
                             cont++;
+                            break;
                         } else if (vubor == 1) {
                             double vverh, niz;
                             printf("Введите верхнюю границу:");
@@ -63,12 +72,18 @@ int main() {
                             scanf("%lf", &niz);
                             vvodMassRandGran(array, size, vverh, niz);
                             cont++;
+                            break;
                         }
 
                     }
                 }
             case 3: {
-                printf("\nВыберите способ сортировки или другие алгоритмы:\nСортировки:\n1)Вставками\n2)Выбором\n3)Пузырьком без модификаци\n4)Пузырьком с модификациями\n5)Сортировка подсчетом для целых чисел\n6)Слиянием (рекурсивная версия)\n7)Быстрая сортировка (сортировка Хоара)\n");
+                if(size < 1) {
+                    printf("Массив должен быть больше 1 элента!");
+                    break;
+                }
+                else {
+                    printf("\nВыберите способ сортировки или другие алгоритмы:\nСортировки:\n1)Вставками\n2)Выбором\n3)Пузырьком без модификаци\n4)Пузырьком с модификациями\n5)Сортировка подсчетом для целых чисел\n6)Слиянием (рекурсивная версия)\n7)Быстрая сортировка (сортировка Хоара)\n");
                 scanf("%d", &vubor);
                 int vuborProm = 0;
                 int iterations = 0;
@@ -177,8 +192,37 @@ int main() {
                     }
                 }
 
-            }
+                }
+
+            } break;
             case 4: {
+                double poiskChislo = 0;
+                printf("\n1) Линейный поиск\n");
+                printf("2) Бинарный поиск\n");
+                scanf("%d", &vubor);
+                printf("Введите элемент, который нужно найти:");
+                scanf("%lf", &poiskChislo);
+                switch (vubor) {
+                    case 1: {
+                        int chw = linealSearch(copyArray, size, poiskChislo);
+                        if (chw != -1) {
+                            printf("Индекс: %d", chw);
+                        } else {
+                            printf("Такого числа нет в массиве");
+                        }
+                    }
+                    case 2: {
+                        printf("Массив должен быть отсортирован!\n");
+                        int chw = binarySearch(copyArray, size, poiskChislo);
+                        if (chw != -1) {
+                            printf("Индекс: %d", chw);
+                        } else {
+                            printf("Такого числа нет в массиве");
+                        }
+                    }
+                }
+            }
+            case 5: {
                 int prodol = 0;
                 printf("\nПродолжить работу(0 - нет, 1 - да):");
                 scanf("%d", &prodol);
